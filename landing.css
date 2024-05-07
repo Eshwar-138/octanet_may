@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(73, 71, 71);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin: o 23px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.right a {
+    padding: 10px;
+}
+
+main,
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+span {
+    font-size: 2rem;
+    color: rgb(202, 164, 239);
+}
+
+.ls a {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    border: 2px solid  rgb(41, 165, 174);
+    background-color: rgb(41, 165, 174);
+    border-radius: 10px;
+}
+
+.head {
+    padding: 10px;
+    padding-left: 30%;
+}
+footer{
+    padding: 10px;
+    margin: 0 23px;
+    color: white;
+    
+}
+footer a{
+    font-size: 2rem;
+    padding: 10px;
+}
+footer div{
+    padding-left: 30%;
+}
+.s1,.social{
+    padding-left: 43%;
+}
+.rights{
+    padding-right: 20%;
+}
